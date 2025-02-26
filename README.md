@@ -15,13 +15,13 @@ python -m venv .venv
 
 # Activate the virtual environment:
 
-        Linux/macOS Users:
+    Linux/macOS Users:
 
-source .venv/bin/activate
+        source .venv/bin/activate
 
-        Windows Users
+    Windows Users
 
-.venv\Scripts\activate
+        .venv\Scripts\activate
 
 # After activation, install dependencies:
 
