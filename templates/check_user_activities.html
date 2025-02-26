@@ -38,7 +38,9 @@
           class="flex flex-wrap gap-2 gap-y-4 sm:gap-4 justify-center w-full"
         >
           <div class="flex gap-4 text-amber-500">
-            <label class=""> Start Date :</label>
+            <label class="">
+              Start Date : <span class="text-red-700 text-xl">*</span>
+            </label>
 
             <input
               required
@@ -48,7 +50,9 @@
             />
           </div>
           <div class="flex gap-4 text-amber-500">
-            <label class=""> End Date :</label>
+            <label class="">
+              End Date : <span class="text-red-700 text-xl">*</span>
+            </label>
             <input
               required
               name="end_date"
@@ -57,9 +61,7 @@
             />
           </div>
           <div class="flex gap-4 text-amber-500">
-            <label class=""
-              >Reg Number<span class="text-red-700 text-xl">*</span> :</label
-            >
+            <label class="">Reg Number:</label>
             <input
               name="registration_number"
               placeholder="Registration Number"
