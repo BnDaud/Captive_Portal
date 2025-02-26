@@ -18,7 +18,7 @@
         />
       </div>
       <div class="flex gap-4 text-sm md:text-lg">
-        <p class="truncate w-20 md:w-32">Hi Username</p>
+        <p class="truncate w-20 md:w-32">Hi {{user}}</p>
         <a href="{% url 'portal:homepage' %}"> <p>Home</p></a>
         <!-- This log Out button doesnt show on mobile-->
         <a href="{% url 'portal:logout' %}" class="hidden md:block">
