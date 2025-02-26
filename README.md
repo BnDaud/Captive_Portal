@@ -15,11 +15,11 @@ python -m venv .venv
 
 # Activate the virtual environment:
 
-# Linux/macOS:
+        Linux/macOS Users:
 
 source .venv/bin/activate
 
-# windows
+        Windows Users
 
 .venv\Scripts\activate
 
@@ -29,12 +29,12 @@ pip install -r requirements.txt
 
 # Usage
 
-# Ensure the app is running on a system managing a public WiFi network.
+Ensure the app is running on a system managing a public WiFi network.
 
-# The application will track and log websites accessed by connected users.
+The application will track and log websites accessed by connected users.
 
-# Use the Django admin panel or built-in UI to monitor activities.
+Use the Django admin panel or built-in UI to monitor activities.
 
-# Linux Configuration
+Linux Configuration
 
-# (Coming soon – instructions will be updated once finalized.)
+(Coming soon – instructions will be updated once finalized.)
