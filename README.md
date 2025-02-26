@@ -6,26 +6,26 @@ Captive Portal
 
 # Clone the repository and navigate into the project directory :
 
-git clone https://github.com/BnDaud/Captive_Portal.git
-cd Captive_Portal
+    git clone https://github.com/BnDaud/Captive_Portal.git
+    cd Captive_Portal
 
 # create a virtual environment :
 
-python -m venv .venv
+    python -m venv .venv
 
 # Activate the virtual environment:
 
-    Linux/macOS Users:
+Linux/macOS Users:
 
         source .venv/bin/activate
 
-    Windows Users
+Windows Users
 
         .venv\Scripts\activate
 
 # After activation, install dependencies:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 # Usage
 
