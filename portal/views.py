@@ -158,7 +158,7 @@ def checkuseractivites(req):
             # registration number 
 
             query = userprofile.profile.filter(date__range = (date1 , date2)).order_by("-date")
-            print(query)
+            
             return render (req , "check_user_activities.html" , context={"userquery":query})
           
         else:
@@ -166,14 +166,9 @@ def checkuseractivites(req):
            # return a query of all log from the start date to 
            # the end date for all user
            all_log = Log_Usage.objects.filter(date__range = (date1 , date2)).order_by("-date")
-           print(all_log)
+           
            return render(req, "check_user_activities.html", context={"userquery":all_log})
-        
-
-
-    
-
-   
+           
 
 def createuser(req):
   context = {"form_action" : reverse("portal:createuser")}
@@ -271,7 +266,7 @@ def login_(req):
 
         if authenticated_user:
             login(req , authenticated_user)
-            print(authenticated_user ,"Logged in" )
+           
             return hrr(reverse("portal:homepage"))
           
         else :
