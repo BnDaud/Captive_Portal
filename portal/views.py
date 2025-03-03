@@ -8,6 +8,8 @@ from django.urls import reverse
 from datetime import datetime , timedelta
 
 
+def custom_404(req , exception):
+  return render(req , "404.html")
 
 
 def detect_device_brand(req):
