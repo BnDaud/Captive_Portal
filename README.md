@@ -38,3 +38,4 @@ Use the Django admin panel or built-in UI to monitor activities.
 Linux Configuration
 
 (Coming soon – instructions will be updated once finalized.)
+# demo_captive_portal
